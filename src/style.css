@@ -11,3 +11,44 @@ body {
     color: var(--fontColour)
 }
 
+#diceImage {
+    width: 20dvw;
+    position: relative;
+    text-align: center;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+    img {
+        width: 100%;
+    }
+
+    p {
+        position: absolute;
+        top: 37%;
+        left: 49%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+
+
+#diceRollingArea {
+    background-color: var(--theme-100);
+    width: 90dvw;
+    min-height: 50dvw;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+/*
+Example JS
+
+body.style.backgroundColor = "blue";
+
+
+document.style.someVariable = "blue";
+
+
+*/
